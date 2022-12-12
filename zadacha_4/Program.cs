@@ -1,4 +1,10 @@
-﻿System.Console.WriteLine("введите число: ");
+﻿// : Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: 0 и 1.
+// Если N = 5 -> 0 1 1 2 3
+// Если N = 3 -> 0 1 1
+// Если N = 7 -> 0 1 1 2 3 5 8
+
+
+System.Console.WriteLine("введите число: ");
 int num = int.Parse(Console.ReadLine());
 int[] array = Fibonacci(num);
 System.Console.WriteLine('[' + string.Join(",", array) + ']');
